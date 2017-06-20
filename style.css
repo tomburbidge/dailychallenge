@@ -88,7 +88,7 @@ nav ul {
 }
 
 /* Mise en forme de la section features */
- #apropos{
+ #apropos, #defis{
   margin: 0 auto;
   width: 80%;
   text-align: center;
@@ -97,12 +97,13 @@ nav ul {
   justify-content: center;
 }
 
- .feature {
-  border: 0px solid #F2F2F2;
+ .feature, .defi {
+  border: 1px solid #F2F2F2;
   background: #FAFAFA;
-  width: 50%;
-  padding: 0px;
-  margin: 10px;
+  margin: 15px;
+  padding: 15px 0;
+  text-align: center;
+  width: 400px;
 }
 
 /* Mise en forme de la section features */
@@ -119,3 +120,14 @@ footer {
   margin-top: 10px;
 }
 
+/* Mise en forme message Welcome */
+#welcome{
+  background-color: #41A3C0;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+#welcome h4{
+ font-size: 50px;
+}
